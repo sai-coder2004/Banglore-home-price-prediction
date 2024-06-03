@@ -1,0 +1,21 @@
+body {
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center elements horizontally */
+    align-items: center; /* Center elements vertically */
+    margin: 0; /* Remove default body margins for better centering */
+    background-color: black;
+  }
+  
+  button {
+    background-color: #e0e0e0; /* Set solid blue background color */
+    color: black; /* Set white text color for better contrast */
+    padding: 10px 20px; /* Add some padding for better visual weight */
+    border: none; /* Remove default button border */
+    font-size: 16px; /* Set desired font size */
+    cursor: pointer; /* Indicate clickable behavior */
+    border-radius: 3px;
+  }
+  button{
+    width: 1000px;
+    font-size: 100px;
+  }

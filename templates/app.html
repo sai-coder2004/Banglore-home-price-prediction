@@ -1,0 +1,28 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="module" src="{{url_for('static',filename='app.js')}}"></script>
+    <link rel="stylesheet" href="{{url_for('static',filename='app.css')}}">
+</head>
+<body>
+    <form action="/submit" method="post" class="form" >
+        <h3><u>Bengalore house price estimator</u></h3><br>
+        <label for="total_sqft" id="form-row label">Total_sqft:(min:100sqft)</label><br>
+        <input type="number" id="form-row" name="total_sqft" value="100" ><br>
+        <label for="bhk" id="form-row label">BHk:(min:1BHK)</label><br>
+        <input type="number" id="form-row" name="bhk" value="1" ><br>
+        <label for="bath" id="form-row label">Bathrooms:(min:1 Bathroom)</label><br>
+        <input type="number" id="form-row" name="bath" value="1"><br>
+        <label for="location" id="form-row label">Select location:</label><br>
+        <select id="form-row" name="location" class="location"></select><br>
+        <input type="submit" value="submit" id="button" name="button">
+    </form>
+    
+
+</body>
+
+</html></html>

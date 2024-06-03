@@ -1,0 +1,12 @@
+flask
+gunicorn
+itsdangerous
+Jinja
+MarkupSafe
+Werkzeug
+numpy
+scikit-learn
+matplotlib
+pandas
+json
+pickle
